@@ -67,6 +67,7 @@ color: #49515a;
 }
 
 aside {
+    color: 434343;
     background-color: #ffffff;
     text-align: center;
 }
@@ -99,6 +100,7 @@ main img {
 
 
 article {
+    color: 434343;
     background-color: #ffffff;
     box-sizing: border-box;
     position: relative;

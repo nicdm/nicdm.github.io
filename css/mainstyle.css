@@ -175,7 +175,7 @@ section img{
 
 /*contact form layout */
 
-input[type=text], select, textarea {
+input[type=text], select, textarea, input[type=email] {
     width: 90%;
     padding: 12px;
     border: 1px solid #ccc;

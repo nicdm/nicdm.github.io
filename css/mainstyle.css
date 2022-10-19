@@ -19,10 +19,7 @@ header {
     color: #49515a;
     grid-area: header;
     text-align:center;
-    
-
 }
-
 
  #logo {
     size: 100%;
@@ -74,6 +71,7 @@ aside {
 
 #first-aside {
 
+    padding-top: 20px;
     background-color: #dae3e7;
     grid-area: first-aside;
 }
@@ -99,22 +97,84 @@ main img {
 }
 
 
-article {
+section {
     color: #434343;
     background-color: #ffffff;
     box-sizing: border-box;
     position: relative;
     margin: 1rem;
+    text-align: center;
     /*width: calc(50% - 2rem);*/
     width: 100%;
-    /*border-radius: 8px;*/
-    border-top-left-radius: 8px;
-    border-bottom-right-radius: 8px;
+    border-radius: 8px;
+    /*border-top-left-radius: 8px;*/
+    /*border-bottom-right-radius: 8px;*/
 
    /* border: 1px solid black; */
 }
 
+/*contact form layout */
 
+input[type=text], select, textarea {
+    width: 90%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+
+.alignment {
+    display:flex;
+    flex-direction:row;
+    padding-top: 2px;
+    margin-bottom: 2px;
+}  
+
+.alignment input {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    width: 10%;
+}
+
+.alignment label {
+    width: 5%;
+    padding: 5px;
+}
+
+input[type=submit], [type=reset] { 
+    background-color: #49ac43;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+  }
+
+input[type=submit]:hover, [type=reset]:hover {
+    background-color: #69f860;
+  }
+
+
+
+.column {
+   
+    text-align: left;
+    margin: auto;
+    /*width: 75%;*/
+    max-width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+  }
+  
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+/*end contact form */
 
 #help {
     position: fixed;
@@ -158,8 +218,10 @@ font-size: 0.75rem;
 footer img {
 
     padding: 0.5rem;
-
 }
+
+
+
 
 @media (max-width: 960px) {
 
@@ -183,6 +245,7 @@ footer img {
 
     img#mainImage {
         display: none;
+    }
 }
 
 @media print {

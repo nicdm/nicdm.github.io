@@ -30,6 +30,7 @@ nav ul {
     list-style: none;
     display: inline-block;
     padding: 0;
+    
 }
 
 nav ul li {
@@ -37,6 +38,7 @@ nav ul li {
     /*vertical-align: middle;*/
     /*background-color: #a0a0a0;*/
     width: 10rem;
+   
 }
 
 nav ul li a {
@@ -44,6 +46,7 @@ nav ul li a {
     padding: 0.5rem;
     text-decoration: none;
     display: block;
+    
 }
 
 nav ul li a:hover {
@@ -55,12 +58,18 @@ color: #49515a;
 #home-link {
 
     text-decoration: underline 3px; 
+
+  
 }
 
 #contact-link {
 
     text-decoration: underline 3px; 
+}
 
+#shop-link {
+
+    text-decoration: underline 3px; 
 }
 
 aside {
@@ -236,6 +245,126 @@ input[type=submit]:hover, [type=reset]:hover {
 
 /*end contact form */
 
+/*Comparative Table*/
+
+.table {
+    display: inline-block;
+    text-align: center;
+    width: auto;
+    text-align: center;
+    padding : 20px;
+    margin: 20px;
+    border: 1px solid #49515a;
+    border-radius: 8px;
+   
+}
+
+.table th {
+
+padding-left: 50px;
+
+}
+
+#greenmark {
+
+    color: #49ac43;
+}
+
+/*End comparative Table */
+
+/* Categories*/
+
+.categories {
+    display: inline-block; 
+    box-sizing: border-box;
+    width: calc(25% - 2rem);
+    font-weight: bold;
+    padding: 10px;
+}
+
+.categories img {
+
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    border: 2px solid #49515a;
+    border-radius: 8px;
+}
+
+/* End Categories */
+
+/* Webshop */
+
+.shop {
+
+    /*border : 1px solid red;*/
+    text-align: left;
+    margin-left: 10px;
+
+}
+
+.shop h2 {
+
+    text-align: center;
+}
+
+.shop a {
+    color: #778492;
+    text-decoration: none;
+    font-size: 1rem;
+
+}
+
+.shop a:hover {
+
+    text-decoration: underline;
+
+}
+
+
+.laptops {
+    /*border: 1px solid blue;*/
+    text-align: center;
+    display: inline-block; 
+    box-sizing: border-box;
+    width: calc(20% - 2rem);
+    font-weight: bold;
+    padding: 10px;
+
+}
+
+.laptops p {
+
+    font-size:x-small;
+}
+
+.laptops img {
+
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    border: 2px solid #49515a;
+    border-radius: 8px;
+}
+
+
+
+
+
+
+/* End Webshop */
+
+#homesymbol {
+
+    color: #778492;
+    font-size: 2rem;
+
+}
+
+
+
 #help {
     position: fixed;
     right: 0;
@@ -305,6 +434,21 @@ footer img {
 
     img#mainImage {
         display: none;
+    }
+
+    .categories {
+
+        display: inline;
+    }
+
+    .categories img {
+
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    border: 2px solid #49515a;
+    border-radius: 8px;
     }
 }
 

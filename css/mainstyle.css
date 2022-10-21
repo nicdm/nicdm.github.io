@@ -504,12 +504,18 @@ footer img {
         display: none;
     }
 
-    .categories {
+
+    .table {
+
+        display: none;
+    }
+
+    .categories, .shopcategories, .shopitem {
 
         display: inline;
     }
 
-    .categories img {
+    .categories img, .shopcategories img, .shopitem img{
 
     display:block;
     margin-left: auto;
@@ -518,8 +524,8 @@ footer img {
     border: 2px solid #49515a;
     border-radius: 8px;
     }
-}
 
+}
 @media print {
     header, footer, aside {
         display: none;

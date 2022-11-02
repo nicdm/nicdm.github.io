@@ -495,7 +495,7 @@ footer img {
         display: inline;
     }
 
-    .categories img, .shopcategories img, .shopitem img{
+    .categories img, .shopcategories img {
 
     display:block;
     margin-left: auto;

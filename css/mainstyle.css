@@ -486,8 +486,8 @@ footer img {
 
 
     .table {
-        overflow-x: auto;
-       /* display: none;*/
+    
+        display: none;
     }
 
     .categories, .shopcategories, .shopitem {

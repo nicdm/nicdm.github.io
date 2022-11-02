@@ -236,7 +236,7 @@ input[type=submit]:hover, [type=reset]:hover {
     padding : 20px;
     margin: 20px;
     border-radius: 8px;
-    overflow-x: auto;
+    
    
 }
 
@@ -484,12 +484,12 @@ footer img {
         display: none;
     }
 
-/*
-    .table {
 
-        display: none;
+    .table {
+        overflow-x: auto;
+       /* display: none;*/
     }
-*/
+
     .categories, .shopcategories, .shopitem {
 
         display: inline;

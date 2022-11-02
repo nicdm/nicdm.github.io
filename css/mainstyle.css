@@ -254,7 +254,6 @@ input[type=submit]:hover, [type=reset]:hover {
     text-align: center;
     padding : 20px;
     margin: 20px;
-    border: 1px solid #49515a;
     border-radius: 8px;
    
 }
@@ -422,9 +421,6 @@ padding-left: 50px;
 }
 
 
-
-/* End Webshop */
-
 #homesymbol {
 
     color: #778492;
@@ -433,6 +429,7 @@ padding-left: 50px;
 }
 
 
+/* End Webshop */
 
 #help {
     position: fixed;
